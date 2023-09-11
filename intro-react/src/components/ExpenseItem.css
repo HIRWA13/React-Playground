@@ -1,20 +1,44 @@
+
 .expense-item {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 50px auto;
-    width: 80%;
+    width: 60%;
     box-shadow: 0 1px 0 2px rgb(37, 34, 34);
     border-radius: 10px;
+    padding: 5px;
 }
 .expense-item__item{
     color: white;
 }
 .expense-item__amount{
     border: 1px solid white;
-    padding: 10px 20px;
+    padding: 10px;
     background-color: rgb(41, 11, 116);
     color: white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.expense-item__date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 20px;
+    width: 50px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 2px rgb(37, 34, 34);
+}
+
+.expense-item__date .month {
+    font-size: 18px;
+}
+.expense-item__date .day {
+    font-size: 22px;
+    font-weight: bold;
 }
