@@ -1,8 +1,9 @@
-import "./App.css";
 import Lists from "./components/Lists";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
+import Pizzeria from "./components/Pizzeria";
+
 
 // function Lanimals (props) {
 //     return (
@@ -22,9 +23,9 @@ import Main from "./components/Main";
 
 
 function App() {
-  const newAnimals = ["Lion", "Cow", "lionHeart","Snake", "Lizard"]
+  // const newAnimals = ["Lion", "Cow", "lionHeart","Snake", "Lizard"]
   return (
-    <div>
+    <>
       <div className="w-2/4 mt-24 mx-auto shadow-md">
         <Header />
         <Main />
@@ -34,10 +35,8 @@ function App() {
       <div>
           <Lists/>
       </div>
-
-      {/* <Lanimals/> */}
-      
-    </div>
+      <Pizzeria/>
+    </>
   );
 }
 
