@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Pizzeria from "./components/Pizzeria";
-
+import GenerateJokes from "./components/GenerateJokes";
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Lists/>
       </div>
       <Pizzeria/>
-      
+      <GenerateJokes/>
     </>
   );
 }

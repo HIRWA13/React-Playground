@@ -5,7 +5,7 @@ export default function Puzzeria() {
   return (
     <>
       <section className="w-2/4  mt-5 mx-auto flex p-2 gap-2">
-        <div className="bg-white shadow-lg w-2/4">
+        <div className="bg-white shadow-md w-2/4">
           <div className="h-2/4">
             <img src={Pizza} className="w-full h-full"/>
           </div>
@@ -14,7 +14,7 @@ export default function Puzzeria() {
             <p className="mt-2">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique recusandae excepturi aliquid fugit alias beatae maiores consequuntur accusantium ipsam illo?</p>
           </article>
         </div>
-        <div className="bg-white shadow-lg w-2/4">
+        <div className="bg-white shadow-md w-2/4">
           <div className="h-2/4">
             <img src={HomemadePizza} className="w-full h-full"/>
           </div>
