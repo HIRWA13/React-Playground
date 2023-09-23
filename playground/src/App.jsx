@@ -5,25 +5,9 @@ import Main from "./components/Main";
 import Pizzeria from "./components/Pizzeria";
 
 
-// function Lanimals (props) {
-//     return (
-//       <>
-//       <h1>Animals that starts with "L"</h1>
-//         <ul>
-//           {
-//             props.newAnimals.map((animal) => {
-//              return  animal.startsWith("L") ? <li key={animal}>{animal}</li> : "404"
-//             })
-//           }
-//         </ul>
-//       </>
-//     );
-// }
-
-
 
 function App() {
-  // const newAnimals = ["Lion", "Cow", "lionHeart","Snake", "Lizard"]
+ 
   return (
     <>
       <div className="w-2/4 mt-24 mx-auto shadow-md">
@@ -36,6 +20,7 @@ function App() {
           <Lists/>
       </div>
       <Pizzeria/>
+      
     </>
   );
 }
