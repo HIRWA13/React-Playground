@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Pizzeria from "./components/Pizzeria";
 import GenerateJokes from "./components/GenerateJokes";
+import Arrays from "./components/Arrays";
+import MemeGen from "./components/MemeGen";
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       </div>
       <Pizzeria/>
       <GenerateJokes/>
+      <Arrays/>
+      <MemeGen/>
     </>
   );
 }
