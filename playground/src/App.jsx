@@ -7,6 +7,7 @@ import GenerateJokes from "./components/GenerateJokes";
 import Arrays from "./components/Arrays";
 import MemeGen from "./components/MemeGen";
 import Events from "./components/Events";
+import Counter from "./components/States";
 
 function App() {
  
@@ -26,6 +27,7 @@ function App() {
       <Arrays/>
       <MemeGen/>
       <Events/>
+      <Counter/>
     </>
   );
 }
