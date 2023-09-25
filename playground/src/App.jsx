@@ -8,6 +8,7 @@ import Arrays from "./components/Arrays";
 import MemeGen from "./components/MemeGen";
 import Events from "./components/Events";
 import Counter from "./components/States";
+import RandomWords from "./components/Words";
 
 function App() {
  
@@ -28,6 +29,7 @@ function App() {
       <MemeGen/>
       <Events/>
       <Counter/>
+      <RandomWords/>
     </>
   );
 }
