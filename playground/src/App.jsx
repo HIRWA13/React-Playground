@@ -6,7 +6,7 @@ import Pizzeria from "./components/Pizzeria";
 import GenerateJokes from "./components/GenerateJokes";
 import Arrays from "./components/Arrays";
 import MemeGen from "./components/MemeGen";
-
+import Events from "./components/Events";
 
 function App() {
  
@@ -25,6 +25,7 @@ function App() {
       <GenerateJokes/>
       <Arrays/>
       <MemeGen/>
+      <Events/>
     </>
   );
 }
