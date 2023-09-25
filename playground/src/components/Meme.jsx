@@ -1,12 +1,13 @@
+import { useState } from "react";
 import memeData from "../assets/memeData";
 
 
 export default function Meme(){
+    const [memeImg, setmemeImg] = useState("")
     const getMemes = () => {
         const memeImgs = memeData.data.memes;
         const randomIndex = Math.floor(Math.random() * memeImgs.length)
-        const url = memeImgs[randomIndex].url
-        console.log(url)
+        setmemeImg(memeImgs[randomIndex].url)        
     }
 
     return (
@@ -17,6 +18,7 @@ export default function Meme(){
                     <input type="text" className="border-2 p-1"/>
                 </div>
                 <button className="bg-memeColor p-2 w-full text-white" onClick={getMemes}>Generate</button>
+                <img src={memeImg} className="w-full"/>
            </div>
         </>
     );
