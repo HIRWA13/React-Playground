@@ -10,6 +10,8 @@ import Events from "./components/Events";
 import Counter from "./components/States";
 import RandomWords from "./components/Words";
 import StateVsArrays from "./components/StateArrays";
+import FavMemes from "./components/FavMemes";
+import Users from "./components/Users";
 
 function App() {
  
@@ -32,6 +34,8 @@ function App() {
       <Counter/>
       <RandomWords/>
       <StateVsArrays/>
+      <FavMemes/>
+      <Users/>
     </>
   );
 }
