@@ -12,6 +12,7 @@ import RandomWords from "./components/Words";
 import StateVsArrays from "./components/StateArrays";
 import FavMemes from "./components/FavMemes";
 import Users from "./components/Users";
+import Boxes from "./components/Boxes";
 
 function App() {
  
@@ -36,6 +37,7 @@ function App() {
       <StateVsArrays/>
       <FavMemes/>
       <Users/>
+      <Boxes/>
     </>
   );
 }
