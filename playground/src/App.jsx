@@ -9,6 +9,7 @@ import MemeGen from "./components/MemeGen";
 import Events from "./components/Events";
 import Counter from "./components/States";
 import RandomWords from "./components/Words";
+import StateVsArrays from "./components/StateArrays";
 
 function App() {
  
@@ -30,6 +31,7 @@ function App() {
       <Events/>
       <Counter/>
       <RandomWords/>
+      <StateVsArrays/>
     </>
   );
 }
