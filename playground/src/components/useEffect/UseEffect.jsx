@@ -27,7 +27,7 @@ export default function UseEffect() {
             <div className="text-white">
                <h1 className="text-2xl text-white text-center mt-3">{resourceType}</h1>
                {items.map(item => {
-                return <pre className="w-full">{JSON.stringify(item)}</pre>
+                return <pre className="w-3/4 bg-black">{JSON.stringify(item)}</pre>
                })}
             </div>
             </section>

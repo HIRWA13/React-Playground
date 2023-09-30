@@ -13,6 +13,11 @@ import StateVsArrays from "./components/StateArrays";
 import FavMemes from "./components/FavMemes";
 import Users from "./components/Users";
 import Boxes from "./components/Boxes";
+import NewItems from "./components/newItems/NewItems";
+import Accordions from "./components/Accordions";
+import Form from "./components/forms/Form";
+import SignUp from "./components/signUp/SignUp";
+import UseEffect from "./components/useEffect/UseEffect";
 
 function App() {
  
@@ -38,6 +43,11 @@ function App() {
       <FavMemes/>
       <Users/>
       <Boxes/>
+      <NewItems/>
+      <Accordions/>
+      <Form/>
+      <SignUp/>
+      <UseEffect/>
     </>
   );
 }
