@@ -19,6 +19,7 @@ import Form from "./components/forms/Form";
 import SignUp from "./components/signUp/SignUp";
 import UseEffect from "./components/useEffect/UseEffect";
 import TaskList from "./components/TodoApp/TaskList";
+import TodoApp from "./components/TaskList/TodoApp";
 
 function App() {
  
@@ -50,6 +51,7 @@ function App() {
       <SignUp/>
       <UseEffect/>
       <TaskList/>
+      <TodoApp/>
     </>
   );
 }
