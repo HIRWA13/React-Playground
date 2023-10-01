@@ -1,5 +1,5 @@
 import { useState } from "react";
-import memeData from "../assets/memeData";
+import memeData from "../../assets/memeData";
 
 
 export default function Meme(){

@@ -4,9 +4,7 @@ function ExpenseItem(props){
     const month = props.date.toLocaleString("en-US", {month: "long"});
     const day = props.date.toLocaleString("en-US", {day: "2-digit"});
     const year = props.date.getFullYear();
-    const clickHandler = () => {
-        console.log('clicked!!!')
-    }
+
     return (
     <div className="expense-item">
         <div className="expense-item__date">
@@ -18,7 +16,6 @@ function ExpenseItem(props){
             <h2 className="expense-item__item-title">{props.title}</h2>
         </div>
         <div className="expense-item__amount">${props.amount}</div>
-        <button onClick={clickHandler}>Change Title</button>
     </div>
     );
 }

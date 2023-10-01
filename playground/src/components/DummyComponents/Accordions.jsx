@@ -1,4 +1,4 @@
-import QnA from "../assets/QnA";
+import QnA from "../../assets/QnA";
 import Accordion from "./Accordion";
 export default function Accordions() {
    

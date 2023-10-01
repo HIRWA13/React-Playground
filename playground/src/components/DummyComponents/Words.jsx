@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import memeData from '../assets/memeData.js'
+import memeData from '../../assets/memeData'
 
 export default function RandomWords() {
     const [memeName, setMemeName] = useState("Get Meme Name")

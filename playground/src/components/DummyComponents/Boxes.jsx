@@ -1,5 +1,5 @@
 import { useState } from "react";
-import boxes from "../assets/boxes";
+import boxes from "../../assets/boxes";
 import Box from "./Box";
 
 export default function Boxes() {

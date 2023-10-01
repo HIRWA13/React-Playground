@@ -1,7 +1,7 @@
-import Pizza from "./pizza2.webp";
+import Pizza from "./Pizza2.webp";
 import HomemadePizza from './homemade-pizza.jpg'
 
-export default function Puzzeria() {
+export default function Pizzeria() {
   return (
     <>
       <section className="w-2/4  mt-5 mx-auto flex p-2 gap-2">

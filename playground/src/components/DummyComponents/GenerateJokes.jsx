@@ -1,4 +1,4 @@
-import jokesData from '../assets/jokesData';
+import jokesData from '../../assets/jokesData';
 import Joke from './Jokes'
 
 export default function GenerateJokes() {

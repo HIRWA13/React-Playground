@@ -1,4 +1,4 @@
-import memes from "../assets/memes";
+import memes from "../../assets/memes";
 import MemeCard from "./MemeCard";
 
 export default function FavMemes () {

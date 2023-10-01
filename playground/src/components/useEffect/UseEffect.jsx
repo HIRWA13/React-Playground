@@ -10,11 +10,11 @@ export default function UseEffect() {
     //     .then(res => res.json())
     //     .then(data => setTodosData(data))
 
-    useEffect(()=> {
-        fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
-            .then(res => res.json())
-            .then(data => setItems(data))
-    }, [resourceType])
+    // useEffect(()=> {
+    //     fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
+    //         .then(res => res.json())
+    //         .then(data => setItems(data))
+    // }, [resourceType])
     
     return (
         <>

@@ -1,4 +1,4 @@
-import users from "../assets/users";
+import users from "../../assets/users";
 import User from "./User";
 
 export default function Users() {
