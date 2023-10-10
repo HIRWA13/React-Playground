@@ -20,7 +20,6 @@ import SignUp from "./components/signUp/SignUp";
 import UseEffect from "./components/useEffect/UseEffect";
 import TaskList from "./components/TodoApp/TaskList";
 import TodoApp from "./components/TaskList/TodoApp";
-
 function App() {
  
   return (
