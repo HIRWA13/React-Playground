@@ -3,7 +3,9 @@ import { useState, useEffect } from "react"
 export default function LocalStorage() {
     const storedItems = JSON.parse(window.localStorage.getItem('cartItems'))
     const [cartItem, setCartItem] = useState("")
-    const [cartItems, setCartItems] = useState(storedItems || [])
+    const [cartItems, setCartItems] = useState(() => {
+      return storedItems || []
+    })
     const inputHandler = (e) => {
         setCartItem(e.target.value)
     }

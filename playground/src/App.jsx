@@ -20,10 +20,12 @@ import SignUp from "./components/signUp/SignUp";
 import UseEffect from "./components/useEffect/UseEffect";
 import TaskList from "./components/TodoApp/TaskList";
 import TodoApp from "./components/TaskList/TodoApp";
+import LocalStorage from "./components/LocalStorage/LocalStorage";
 function App() {
  
   return (
     <>
+    <LocalStorage/>
       <div className="w-2/4 mt-24 mx-auto shadow-md">
         <Header />
         <Main />
